@@ -1,0 +1,11 @@
+export { default as drslider} from '../../assets/images/dr-slider.png';
+export { default as banner1} from '../../assets/images/banner-1.png';
+export { default as Slider1} from '../../assets/images/slider/slider-1.jpg';
+export { default as Slider2} from '../../assets/images/slider/slider-2.jpg';
+export { default as Slider3} from '../../assets/images/slider/slider-3.jpg';
+export { default as Doctor07} from '../../assets/images/doctors/doctor-07.jpg';
+export { default as ImgPharmacy1} from '../../assets/images/img-pharmacy1.jpg';
+export { default as LabImage} from '../../assets/images/lab-image.jpg';
+export { default as Slide1} from '../../assets/images/slide1.jpg';
+export { default as Slide2} from '../../assets/images/slide2.jpg';
+export { default as Docslide1} from '../../assets/images/doc-slide-1.png';

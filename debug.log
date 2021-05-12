@@ -1,0 +1,7 @@
+[0827/162747.399:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fee0e32fe0 of 512 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0827/162757.130:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fee0e3320d of 512 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0827/163411.412:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fee0a02fe0 of 512 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0827/164036.219:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fee28c2fe0 of 512 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0831/104408.800:ERROR:settings.cc(320)] Settings magic is not 1129342067
+[0831/104844.123:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fed9d72fe0 of 512 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0831/104853.719:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fed9d7320d of 512 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
