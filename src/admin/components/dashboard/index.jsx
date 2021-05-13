@@ -11,7 +11,7 @@ import { listarPersonas } from "../../../conextion/persona/personas";
 import { ThemeProvider } from "@material-ui/core";
 import mainTheme from "../../../Components/mainTheme";
 const columns = [
-  { title: "NRO", field: "nro" },
+  //{ title: "NRO", field: "nro" },
   { title: "ID", field: "id" },
   { title: "NOMBRE", field: "nombre" },
   { title: "ROL", field: "rol" },
@@ -23,8 +23,7 @@ const Dashboard = (props) => {
     listarPersonasBack();
   }, []);
   const listarPersonasBack = async () => {
-    console.log("llamadaaa", listarPersonas());
-    
+    console.log("llamadaaa", await listarPersonas());
 
     setData(await listarPersonas());
   };

@@ -1,6 +1,8 @@
 import axios from "axios";
+
 const baseURL = "persona";
-const REACT_APP_MAIN_SERVER = "http://localhost:5000";
+const REACT_APP_MAIN_SERVER =
+  "http://ec2-54-145-129-39.compute-1.amazonaws.com/";
 /**
  *
  * @returns a list of people
@@ -11,16 +13,26 @@ export const listarPersonas = async () => {
     { id: 20000, nombre: "gaaaaa", rol: "JP" },
     { id: 3000000, nombre: "chupetin", rol: "vas a caer" },
   ];
+
+  /*   axios
+    .get(
+      REACT_APP_MAIN_SERVER + 
+      `/${baseURL}`)
+    .then((res) => {
+      console.log("listaar:", res);
+    })
+    .catch((error) => {
+      console.log(`Error al listar personas:`, error);
+    });
+   */
   try {
-    /*
-    AQUI SE HACE LA LLAMADA
-    
-    const res = await axios.get(REACT_APP_MAIN_SERVER + `/${baseURL}/listar`);
+    //AQUI SE HACE LA LLAMADA
+
+    const res = await axios.get(REACT_APP_MAIN_SERVER + `/${baseURL}`);
+    console.log("listar:", res);
     return res.data;
 
-
-    */
-   return defaultResponse;
+    //return defaultResponse;
   } catch (error) {
     console.log(`Error al listar personas:`, error);
     return defaultResponse;
